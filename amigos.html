@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Amigos</h1>
+        <p>Desliza para ver a mis amigos y haz clic en su foto para ver más detalles.</p>
+    </header>
+
+    <section id="carrusel">
+        <div class="amigo" data-info="Itzel Osorio Martinez, ella es increible en cada cosa que hace,
+        es muy apasionada y dedicada en todo, un ejemplo a segui de destreza y disciplina,
+        siempre es muy cálida pero sobretodo es la chica más sincera que conozco">
+            <img src="images/amigos.jpeg" alt="Itzel">
+            <h3>Itzel</h3>
+        </div>
+        <div class="amigo" data-info="Angel Gabriel Perez Perez , mi amigo del alma a el lo conoci
+        en la universidad y en tan poco tiempo nos hemos vuelto inseparables, no hay
+        nadie en quien más confie que en el , sin duda tiene demasiadas cualidades 
+        y siempre hace que yo me supere en todo lo que pueda.">
+            <img src="images/bros.jpeg" alt="Gabriel">
+            <h3>Gabriel</h3>
+        </div>
+    </section>
+
+    <!-- Contenedor para mostrar la información ampliada -->
+    <div id="info-modal" class="modal">
+        <span class="close">&times;</span>
+        <img id="modal-img" src="" alt="Amigo">
+        <p id="modal-info"></p>
+    </div>
+     <!-- Botones de navegación -->
+     <div class="botonera">
+        <a href="index.html" class="boton">Inicio</a>
+        <a href="experiencia.html" class="boton">Experiencia</a>
+        <a href="hobbies.html" class="boton">Hobbies</a>
+        <a href="familia.html" class="boton">Familia</a>
+        <a href="formulario.html" class="boton">Formulario</a>
+        <a href="horario.html" class="boton">Horario</a>
+    </div>
+</body>
+</html>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>

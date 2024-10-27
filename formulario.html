@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Comentarios</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Deja tu Comentario</h1>
+
+    <form id="comentario-form">
+        <!-- Comentario -->
+        <label for="comentario">Comentario:</label>
+        <textarea id="comentario" name="comentario" placeholder="Escribe aquí tu comentario..."></textarea>
+
+        <!-- Nombre -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <!-- Sexo -->
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <!-- Edad -->
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad" min="1" max="120" required>
+
+        <!-- Fecha de Nacimiento -->
+        <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+        <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+
+        <!-- Calificación -->
+        <label for="calificacion">Califica nuestra página:</label>
+        <div id="estrellas" class="rating">
+            <span data-value="1">&#9733;</span>
+            <span data-value="2">&#9733;</span>
+            <span data-value="3">&#9733;</span>
+            <span data-value="4">&#9733;</span>
+            <span data-value="5">&#9733;</span>
+        </div>
+
+        <!-- Correo Electrónico -->
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Botón Enviar -->
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="js/formulario.js"></script>
+    <div class="botonera">
+        <a href="index.html" class="boton">Inicio</a>
+        <a href="hobbies.html" class="boton">Hobbies</a>
+        <a href="amigos.html" class="boton">Amigos</a>
+        <a href="familia.html" class="boton">Familia</a>
+        <a href="horario.html" class="boton">Horario</a>
+    </div>
+</body>
+</html>

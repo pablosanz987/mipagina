@@ -1,0 +1,596 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Color de fondo */
+    color: #4b0082; /* Texto morado */
+}
+body {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 100vh; /* Asegura que el contenedor ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+#informacion-principal {
+    text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+
+header {
+    background-color: #6a0dad; /* Morado oscuro */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #6a0dad; /* Enlaces morados */
+}
+
+nav ul li a:hover {
+    color: #4b0082; /* Enlace morado oscuro al pasar el mouse */
+}
+
+h1, h2 {
+    color: #b4a2c1; /* Encabezados morados */
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    border: 1px solid #dcdcdc; /* Borde gris claro */
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco para secciones */
+    border: 1px solid #dcdcdc; /* Borde gris claro */
+}
+img {
+    transition: transform 0.3s ease; /* Transición suave */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumentar el tamaño de la imagen al pasar el mouse */
+}
+/* Estilo de los botones */
+.botonera {
+    text-align: center; /* Centra los botones horizontalmente */
+    margin-top: 20px;
+}
+
+.boton {
+    display: inline-block; /* Para que se comporten como botones */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 10px; /* Espaciado externo entre botones */
+    background-color: #6a0dad; /* Color morado para los botones */
+    color: white; /* Color de texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-weight: bold; /* Texto en negrita */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.boton:hover {
+    background-color: #4b0082; /* Color más oscuro al pasar el mouse */
+}
+
+.boton:active {
+    background-color: #3a0069; /* Color aún más oscuro cuando se hace clic */
+}
+
+/* Estilo para que todo esté centrado verticalmente */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    min-height: 100vh; /* Ocupa toda la altura de la pantalla */
+    margin: 0;
+}
+
+header {
+    margin-bottom: 20px; /* Espaciado entre el título y los botones */
+    text-align: center;
+}
+
+.botonera {
+    margin-bottom: 20px; /* Espaciado entre los botones y la tabla */
+    display: flex;
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+}
+
+/* Estilo de los botones */
+.boton {
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #4b0082;
+}
+
+/* Estilo para la tabla */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Asegura que esté centrada horizontalmente */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+thead th {
+    background-color: #6a0dad; /* Color morado */
+    color: white;
+}
+
+tbody td {
+    background-color: #f9f9f9;
+}
+/* Centrar la tabla con botones al lado derecho */
+.tabla-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+thead th {
+    background-color: #6a0dad;
+    color: white;
+}
+
+tbody td {
+    background-color: #f9f9f9;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #4b0082;
+}
+
+/* Posición de los botones al lado derecho de la tabla */
+.botones-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+/* Resaltar la celda seleccionada */
+.seleccionada {
+    background-color: #f0e68c; /* Color de fondo cuando la celda está seleccionada */
+}
+.arbol {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.arbol ul {
+    padding-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.arbol ul ul {
+    margin-top: 20px;
+}
+
+.arbol li {
+    list-style-type: none;
+    margin: 0 10px;
+    padding: 20px 5px 0 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Líneas que conectan los nodos */
+.arbol li::before, .arbol li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.arbol li::before {
+    left: -50%;
+}
+
+.arbol li::after {
+    right: -50%;
+}
+
+.arbol ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0;
+    height: 20px;
+}
+
+.arbol span {
+    background-color: #6a0dad;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.arbol li:only-child::before, .arbol li:only-child::after {
+    display: none;
+}
+
+.arbol li:first-child::before, .arbol li:last-child::after {
+    border: 0;
+}
+
+.arbol li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 5px 0 0 0;
+}
+
+.arbol li:first-child::after {
+    border-left: 1px solid #ccc;
+    border-radius: 0 5px 0 0;
+}
+.persona img {
+    width: 50px; /* Cambia a un tamaño más pequeño */
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    border: 2px solid #6a0dad;
+}
+/* Estilo para los hobbies en formato de tarjetas */
+#hobbies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.hobby {
+    width: 250px;
+    background-color: #f0f0f5; /* Fondo claro */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra de caja */
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease; /* Efecto de transición al pasar el mouse */
+}
+
+.hobby:hover {
+    transform: scale(1.05); /* Aumenta el tamaño al pasar el mouse */
+}
+
+.hobby img {
+    width: 100%;
+    height: auto;
+    border-bottom: 3px solid #6a0dad;
+}
+
+.hobby p {
+    padding: 15px;
+    color: #333;
+}
+
+/* Estilos para los botones de navegación */
+.botonera {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #6a0dad;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.boton:hover {
+    background-color: #4b0082;
+}
+/* Estilos para el carrusel */
+#carrusel {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.amigo {
+    position: relative;
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.amigo:hover {
+    transform: scale(1.1);
+}
+
+.amigo img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Modal para la información ampliada */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modal img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.modal p {
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f8;
+}
+
+h1 {
+    text-align: center;
+    color: #4b0082;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+textarea, input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #4b0082;
+}
+
+/* Estilos de las estrellas */
+.rating {
+    display: flex;
+    gap: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating span:hover,
+.rating span:hover ~ span,
+.rating span.selected {
+    color: #ffb400;
+}
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    color: #4b0082;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+#experiencia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta-experiencia {
+    background-color: #fff;
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta-experiencia:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.tarjeta-experiencia h2 {
+    color: #4b0082;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.tarjeta-experiencia p {
+    margin: 5px 0;
+}
+
+/* Estilos para botones de navegación */
+.botonera {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #4b0082;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.boton:hover {
+    background-color: #6a0dad;
+    transform: scale(1.1);
+}
+#experiencia {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta-experiencia {
+    perspective: 1000px; /* Necesario para el efecto 3D */
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.tarjeta-experiencia:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.tarjeta-front, .tarjeta-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border: 2px solid #6a0dad;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-front {
+    background-color: #fff;
+    color: #333;
+}
+
+.tarjeta-back {
+    background-color: #4b0082;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+
+.tarjeta-back img {
+    max-width: 80%;
+    max-height: 80%;
+}

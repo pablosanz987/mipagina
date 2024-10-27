@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Árbol Genealógico</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mi Árbol Genealógico</h1>
+    </header>
+
+    <section id="arbol-genealogico">
+        <div class="arbol">
+            <ul>
+                <!-- Nivel 1: Tú y tu hermano -->
+                <li>
+                    <div class="persona">
+                        <img src="images/yo.jpeg" alt="Pablo Sanchez Ramos">
+                        <span contenteditable="true">Pablo Sanchez Ramos</span>
+                    </div>
+                    <div class="persona">
+                        <img src="images/hermano.jpeg" alt="Mariano Sanchez Ramos">
+                        <span contenteditable="true">Mariano Sanchez Ramos</span>
+                    </div>
+                    <ul>
+                        <!-- Nivel 2: Tus padres -->
+                        <li>
+                            <div class="persona">
+                                <img src="images/padre.jpeg" alt="Mariano Sanchez Sanchez">
+                                <span contenteditable="true">Mariano Sanchez Sanchez</span>
+                            </div>
+                            <div class="persona">
+                                <img src="images/madre.jpeg" alt="Maria Alejandra Ramos Fuentes">
+                                <span contenteditable="true">Maria Alejandra Ramos Fuentes</span>
+                            </div>
+                            <ul>
+                                <!-- Nivel 3: Abuelos paternos -->
+                                <li>
+                                    <div class="persona">
+                                        <img src="images/abuelo.jpg" alt="Lazaro Sanchez Bueno">
+                                        <span contenteditable="true">Lazaro Sanchez Bueno</span>
+                                    </div>
+                                    <div class="persona">
+                                        <img src="images/abue.jpg" alt="Ana Maria Sanchez Juan">
+                                        <span contenteditable="true">Ana Maria Sanchez Juan</span>
+                                    </div>
+                                    <ul>
+                                        <!-- Nivel 4: Hijos de los abuelos paternos -->
+                                        <li>
+                                            <div class="persona">
+                                                <img src="images/tio armando.png" alt="Armando Sanchez Sanchez">
+                                                <span contenteditable="true">Armando Sanchez Sanchez</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="persona">
+                                                <img src="images/tio ar.jpeg" alt="Arturo Sanchez Sanchez">
+                                                <span contenteditable="true">Arturo Sanchez Sanchez</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!-- Nivel 3: Abuelos maternos -->
+                                <li>
+                                    <div class="persona">
+                                        <img src="images/abuelo molo.png" alt="Manuel Ramos de Ita">
+                                        <span contenteditable="true">Manuel Ramos de Ita</span>
+                                    </div>
+                                    <div class="persona">
+                                        <img src="img/abuela_materna.jpg" alt="Antonia Fuentes">
+                                        <span contenteditable="true">Antonia Fuentes</span>
+                                    </div>
+                                    <ul>
+                                        <!-- Nivel 4: Hijos de los abuelos maternos -->
+                                        <li>
+                                            <div class="persona">
+                                                <img src="img/tio1_materno.jpg" alt="Manuel Ramos Fuentes">
+                                                <span contenteditable="true">Manuel Ramos Fuentes</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="persona">
+                                                <img src="images/tia mina.png" alt="Yasmin Ramos Fuentes">
+                                                <span contenteditable="true">Yasmin Ramos Fuentes</span>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="persona">
+                                                <img src="img/tio3_materno.jpg" alt="Dulce Maria Ramos Fuentes">
+                                                <span contenteditable="true">Dulce Maria Ramos Fuentes</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="botonera">
+            <a href="index.html" class="boton">Inicio</a>
+            <a href="experiencia.html" class="boton">Experiencia</a>
+            <a href="hobbies.html" class="boton">Hobbies</a>
+            <a href="horario.html" class="boton">Horario</a>
+            <a href="amigos.html" class="boton">Amigos</a>
+            <a href="formulario.html" class="boton">Formulario</a>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
